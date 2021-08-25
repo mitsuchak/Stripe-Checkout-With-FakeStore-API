@@ -96,7 +96,7 @@ def create_stripe_checkout_session(request, product_name):
 @csrf_exempt
 def stripe_webhook(request):
     stripe.api_key = settings.STRIPE_SECRET_KEY
-    endpoint_secret = 'whsec_KyiUXX0efW0co8R2OWKr26ljLH2lIOVL'
+    endpoint_secret = 'YOUR_ENDPOINT_SECRET'
     payload = request.body.decode("UTF-8")
     payload_dictionary = json.loads(payload)
     # payload_dictionary_payment_status = payload_dictionary['data']['object']['id'] #to access  dictionary  sub-elements

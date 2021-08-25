@@ -121,9 +121,9 @@ import os
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [Path(BASE_DIR).joinpath('static')] 
 
-STRIPE_SECRET_KEY = 'sk_test_51JAYouSIOIKz7cmfNrgqBcXzF89SGss85baoz4djvFj8sqWvcDV9nvbGN4r2dGcr2iZHRbEFhG2BF0NDEiQfSBYG00ohCpHCS7'
-STRIPE_PUBLISHABLE_KEY = 'pk_test_51JAYouSIOIKz7cmfczeDN0rvHKakAERTCdfWb4dsAPjpz7otjndMXZSI54salmxBVWlTyXiUtDtFMsfizU7LBIsJ00v87dOvMs'
-STRIPE_ENDPOINT_SECRET = 'rk_test_51JAYouSIOIKz7cmfv3Q5l9CeAB5fqipG3fSJujY7jF099u0eaJzJGmKhYNTaHQV1sNn9WBzdr4YRxBYgxfXBh2UD00jraBbPIJ'
+STRIPE_SECRET_KEY = 'YOUR_SECRET_KEY'
+STRIPE_PUBLISHABLE_KEY = 'YOUR_PUBLISHABLE_KEY'
+STRIPE_ENDPOINT_SECRET = 'YOUR_ENDPOINT_SECRET'
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
